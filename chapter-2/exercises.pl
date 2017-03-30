@@ -128,7 +128,7 @@ word(elegant,e,l,e,g,a,n,t).
 
 crossword(V1,V2,V3,H1,H2,H3) :-
   %% Make the word intersect at the right places.
-  %% Use _ where we don't give a fuck about variable name.
+  %% Use _ where we don't care about variable name.
   word(H1,_,H12V12,_,H14V22,_,H16V32,_),
   word(H2,_,H22V14,_,H24V24,_,H26V34,_),
   word(H3,_,H32V16,_,H34V26,_,H36V36,_),
